@@ -19,16 +19,16 @@
     <div id="tres">Tres</div>
 
     <script type="text/javascript">
-      var arreglo = [1, 2, 3];
-      var divs = document.querySelectorAll("div");
-      var div = document.getElementById("uno");
-      // divs.forEach(function(e) {
-      //   e.addEventListener('click', function(evento) {
-      //     if( evento.target.style.background == 'gray none repeat scroll 0% 0%') {
-      //       evento.target.style.background = 'plum';
-      //     } else {
-      //       evento.target.style.background = 'gray';
-      //     }
+      // var arreglo = [1, 2, 3];
+      // var divs = document.querySelectorAll("div");
+      // var div = document.getElementById("uno");
+      divs.forEach(function(e) {
+        e.addEventListener('click', function(evento) {
+          if( evento.target.style.background == 'gray none repeat scroll 0% 0%') {
+            evento.target.style.background = 'plum';
+          } else {
+            evento.target.style.background = 'gray';
+          }
       //   })
       // })
       // document.body.addEventListener('mousemove', function(e) {
